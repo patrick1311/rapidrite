@@ -1,3 +1,5 @@
+// add this to whatever script we use on the news feed
+// function to parse rss
 $(document).ready(function() {
     //feed to parse
     var feed = "https://comicvine.gamespot.com/feeds/news";
