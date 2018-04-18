@@ -1,4 +1,4 @@
-# rapidrite
+# Rapid Rite
 
 Cal Poly Pomona 
 CS 480 Project
