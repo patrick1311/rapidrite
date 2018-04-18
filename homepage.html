@@ -11,11 +11,17 @@
     <div class="content">
         <h1 class="text-nowrap">Edwin's Comic Site</h1>
         <!--Top Navigation Bar-->
-        <ul class = "navbar">
-            <li><a href="#home">Home</a></li>
-            <li class ="dropdown"><a href="#Comics">News</a></li>
-            <li><a href="#profile">Profile</a></li>
-        </ul>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle"
+                    type="button" data-toggle="dropdown">Menu
+                <span class = "caret"></span></button>
+            <ul class = "navbar dropdown-menu">
+                <li><a>Home</a></li>
+                <li><a>Comics</a></li>
+                <li><a>Community</a></li>
+            </ul>
+        </div>
+
 
         <!-- use jQuery to display newsfeed using someone else's rss feed-->
         <div class="news">
@@ -24,6 +30,10 @@
 
         <!-- display top 10 rated comics-->
         <div class = "t10">
+
+        </div>
+
+        <div class = "recents">
 
         </div>
 
