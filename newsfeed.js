@@ -41,6 +41,9 @@ $.ajax({
             var description = $(this).find("description").text();
 
             ulHTML += liHTML_template.replace('{title}', title).replace('{link}', link).replace('{pubDate}', pubDate).replace('{description}', pubDate);
+
+            //debug
+            console.log(ulHTML);
         });
 
         $('#FeedContainer > div > div.feed-bd > ul').html(ulHTML);
