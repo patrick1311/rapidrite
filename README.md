@@ -1,4 +1,4 @@
-# Edwin's Comic Site
+# Rapid Rite Comic Book Website
 
 Cal Poly Pomona 
 CS 480 Project
