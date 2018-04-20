@@ -3,7 +3,6 @@
 	text-align: center;
 	background-color: lightgray;
 	border: 5px solid green;
-	border-radius: 20px;
 }
 
 
@@ -26,8 +25,7 @@
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: bold;
-	padding: 10px;
-	
+	padding: 10px;	
 }
 
 .menu a:hover {
@@ -36,6 +34,31 @@
 	color: white;
 }
 
+.footer {
+	background-color: lightblue;
+	width: 100%;
+	height: 50px;
+	padding: 10px;
+
+}
+
+.flist {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.flist li {
+	float: left;
+	background-color: white;
+}
+
+.flist a {
+	padding: 10px;
+	color: black;
+	text-align: center;
+	//background-color: yellow;
+}
 
 #backtop {
 	position: fixed;
