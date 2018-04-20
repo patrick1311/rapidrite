@@ -1,5 +1,51 @@
 .text-nowrap {
 	color: blue;
 	text-align: center;
-	color-padding: orange;
+	background-color: lightgray;
+	border: 5px solid green;
+	border-radius: 20px;
+}
+
+
+.menu {
+	list-style-type: none;
+	width: 1200px;
+	padding: 0px;
+	margin: auto;
+}
+
+.menu li {
+	float: left;
+}
+
+.menu a {
+	display: block;
+	background-color: steelblue;
+	width: 240px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px;
+	
+}
+
+.menu a:hover {
+	background-color: #444;
+	text-decoration: none;
+	color: white;
+}
+
+
+#backtop {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	
+	background-color: black;
+	//border: 3px solid gray;
+	color: white;
+	text-decoration: none;
+	border-style: outset;
+	padding: 3px;
 }
