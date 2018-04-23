@@ -50,7 +50,8 @@
 
 .flist li {
 	float: left;
-	background-color: white;
+	//background-color: white;
+	//border: 1px solid red;
 }
 
 .flist a {
