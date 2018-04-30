@@ -4,62 +4,139 @@
     <meta charset="UTF-8">
     <title>ECS Home</title>
     <link href="homepage.css" rel="stylesheet">
+     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="getNews.js"></script>
 </head>
 <body>
-    <div class="content">
+
+	<!-- CONTAINER -->
+	<div id="container">
+	
+		<!-- HEADER -->
+    	<div id="header">
+    		<div id="logo"><p>insert logo img here</p></div>
+    		<div id="acc_info"><p>login & signup</p></div>
+    		<nav>
+    			<a href="#home">Home</a>
+    			<a href="#news">News</a>
+    			<a href="#comics">Comics</a>
+    			<a href="#account">Account</a>
+    			<a href="#about">About</a>
+    		</nav>
+    	</div>
+    	
+    	<!-- BODY CONTENT -->
+    	<div id="content">
+    		<div id="left_col">
+    			<h1>News Feed Here</h1>
+    			<h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4>
+    			<h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4>
+				<h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4>
+				<h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4>
+    		</div>
+    		<div id="right_col">
+    			<h3>Top Ranking Comic Here</h3>
+    			<ol class="top_comic">
+    				<li>Name</li>
+    				<li>Name</li>
+    				<li>Name</li>
+    			</ol>
+    		</div>
+    	</div>
+    	
+    	<!-- FOOTER -->
+    	<div id="footer">
+    		<ul>
+    			<li><a href="#home">Home</a></li>
+    			<li><a href="#about">About</a></li>
+    			<li><a href="#contacts">Contacts</a></li>
+    			<li><a href="#faq">FAQ</a></li>
+    			<li><a href="#privacy">Privacy</a></li>		
+    		</ul>
+    	</div>
     
-    	<header>
-       		<h1 class="text-nowrap">Web Logo</h1>
-        	<!-- Put web logo here -->
-        </header>
-        
-        
-        <!--Top Navigation Bar-->
-        	<ul class="menu">
- 				<li><a href="#home">Home</a></li>
-  				<li><a href="#news">News</a></li>
-  				<li><a href="#comic">Comics</a></li>
-  				<li><a href="#account">Account</a></li>
-  				<li><a href="#about">About</a></li>
-			</ul>
-
-	
-        <!-- use jQuery to display newsfeed using someone else's rss feed-->
- 		<div class="newsfeed">
-			<p>News Feed Here</p>
-			<hr/><hr/><hr/><hr/><hr/><hr/><hr/><hr/><hr/><hr/><hr/><hr/><hr/><hr/><hr/>
-    		<hr/><hr/><hr/><hr/><hr/><hr/><hr/><hr/><hr/><hr/><hr/><hr/><hr/><hr
-		</div>
-
-
-        <!-- display top 10 rated comics-->
-        <div class = "t10">
-			<p>Top 10 list here</p>
-			<ol>
-				<li><li/>
-				<li><li/>
-			<ol/>
-        </div>
-
-
+    
     </div>
+	<!-- END CONTAINER -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!--
+		<header>
+       		<h1>Web Logo</h1>
+        	
+        
+        	<ul class="nav">
+        		<li><a href="#home">Home</a></li>
+        		<li><a href="#news">News</a></li>
+        		<li><a href="#comic">Comics</a></li>
+        		<li><a href="#account">Account</a></li>
+        		<li><a href="#about">About</a></li>
+       	 	</ul>
+       	 	
+       	</header>
+		
+		
+		<div class="main">
+			<div class="left-column">
+				<h1>NEWS</h1>
+				<h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4>
+				<h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4>
+				<h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4>
+				<h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4>
+				<h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4>
+				<h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4><h4>Add contents</h4>
+				
+				
+				
+			</div>
+		
+			<div class="right-column">
+				<h1>Top ranking comic</h1>
+				<ol>
+					<li>Comic name</li>
+					<li>Comic name</li>
+					<li>Comic name</li>
+					<li>Comic name</li>
+					<li>Comic name</li>
+					<li>Comic name</li>
+					<li>Comic name</li>
+					<li>Comic name</li>
+					<li>Comic name</li>
+					<li>Comic name</li>
+				</ol>
+			</div>
+			
+		</div>
+  
+  
+  	
+  	
+  		<footer>
+    		<ul class="footer">
+    			<li><a href="#">Home</a></li>
+    			<li><a href="#about">About</a></li>
+    			<li><a href="#contacts">Contacts</a></li>
+    			<li><a href="#faq">FAQ</a></li>
+    			<li><a href="#privacy">Privacy</a></li>
+    		</ul>
+    	</footer>
+    	
+    </div>	
 	
-	<hr/><hr/>
+
     
     <h4><a href="#" id="backtop">Back To Top</a><h4/>
     
-    <footer class="footer">
-    	<ul class="flist">
-    		<li><a href="#">Home</a></li>
-    		<li><a href="about">About</a></li>
-    		<li><a href="contacts">Contacts</a></li>
-    		<li><a href="faq">FAQ</a></li>
-    		<li><a href="privacy">Privacy</a></li>
-    	</ul>
-    </footer>
-    
-    
-</body>
-</html>
+    -->

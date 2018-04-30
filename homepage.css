@@ -1,76 +1,100 @@
-.text-nowrap {
-	color: blue;
-	text-align: center;
+
+#header {
+	background-color: yellow;
+	height: 120px;
+}
+
+#logo {
 	background-color: lightgray;
-	border: 5px solid green;
-}
-
-
-.menu {
-	list-style-type: none;
-	width: 1200px;
-	padding: 0px;
-	margin: auto;
-}
-
-.menu li {
 	float: left;
-}
-
-.menu a {
-	display: block;
-	background-color: steelblue;
-	width: 240px;
-	color: white;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: bold;
-	padding: 10px;	
-}
-
-.menu a:hover {
-	background-color: #444;
-	text-decoration: none;
-	color: white;
-}
-
-.newsfeed {
-	border: 3px solid black;
-	width: 70%;
-	position: relative;
-	top: 60px;
-	left: 20px;
-}
-
-.t10 {
-
-}
-
-.footer {
-	background-color: lightblue;
-	width: 100%;
-	height: 50px;
+	width: 20%;
+	height: 80px;
 	padding: 10px;
 }
 
-.flist {
+#acc_info {
+	background-color: lightgreen;
+	float: right;
+	width: 30%;
+	height: 60px;
+	padding: 10px;
+}
+
+nav {
+	clear: both;
+	width: 100%;
+	min-width: 1200px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+nav a {
+	float: left;
+	margin: 0;
+	padding: 10px 0px;
+	background-color: #666;
+	width: 20%;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a:hover {
+	background-color: #333;
+	color: white;
+	text-decoration: none;
+}
+
+#content {
+	min-height: 100%;
+	height: 100%;
+	//border: 1px solid red;
+	margin: 5px 5px;	
+}
+
+#left_col {
+	float: left;
+	border: 3px solid black;
+	width: 70%;
+	padding: 20px;
+}
+
+#right_col {
+	float: left;
+	border: 3px solid gray;
+	width: 30%;
+	padding: 20px;
+}
+
+#footer {
+	clear: both;
+	background-color: lightblue;
+	padding: 20px;
+	height: 60px;
+	width: 100%;
+}
+
+#footer ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 }
 
-.flist li {
+#footer li {
 	float: left;
-	//background-color: white;
-	//border: 1px solid red;
 }
 
-.flist a {
+#footer a {
 	padding: 10px;
-	color: black;
 	text-align: center;
-	//background-color: yellow;
+	color: gray;
 }
+
+
+
+/*
 
 #backtop {
 	position: fixed;
@@ -84,3 +108,5 @@
 	border-style: outset;
 	padding: 3px;
 }
+
+*/
