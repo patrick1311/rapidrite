@@ -1,82 +1,9 @@
-
 #container {
 	min-width: 1100px;
 	width: 1100px;
 	margin: 0 auto;
 }
 
-#header {
-	//background-color: yellow;
-	height: 120px;
-}
-
-#logo img {
-	//background-color: lightgray;
-	float: left;
-	width: 311px;
-	height: 75px;
-	padding: 10px;
-}
-
-#acc_info {
-	//background-color: lightgreen;
-	float: right;
-	width: 20%;
-	height: 60px;
-	//padding: 10px;
-	//border: 1px solid black;
-}
-
-#acc_info a {
-	float: right;
-	padding: 0px 20px;
-	margin: 10px 4px;
-	font-weight: bold;	
-	text-decoration: none;
-}
-
-#acc_info a:hover { 
-	background-color: #A3C2E5;
-}
-
-#login {
-	color: #11519B;
-	border: 3px solid #11519B;
-	background-color: white;
-}
-
-#signup {
-	color: white;
-	border: 3px solid #11519B;
-	background-color: #11519B;
-}
-
-nav {
-	clear: both;
-	width: 100%;
-	//min-width: 1200px;
-	text-align: center;
-	padding: 0;
-	margin: 0;
-}
-
-nav a {
-	float: left;
-	margin: 0;
-	padding: 10px 0px;
-	background-color: #666;
-	width: 20%;
-	color: white;
-	text-transform: uppercase;
-	text-decoration: none;
-	font-weight: bold;
-}
-
-nav a:hover {
-	background-color: #333;
-	color: white;
-	text-decoration: none;
-}
 
 #content {
 	border: 1px solid rgba(0, 0, 0, 0.2);
@@ -97,28 +24,4 @@ nav a:hover {
 	border: 1px solid gray;
 	width: 30%;
 	padding: 20px;
-}
-
-#footer {
-	clear: both;
-	background-color: lightblue;
-	padding: 20px;
-	height: 60px;
-	width: 100%;
-}
-
-#footer ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-}
-
-#footer li {
-	float: left;
-}
-
-#footer a {
-	padding: 10px;
-	text-align: center;
-	color: gray;
 }
