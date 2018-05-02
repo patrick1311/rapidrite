@@ -1,7 +1,7 @@
 
 #footer {
 	clear: both;
-	background-color: lightblue;
+	background-color: var(--main_theme_color);
 	padding: 20px;
 	height: 60px;
 	width: 100%;
@@ -20,5 +20,5 @@
 #footer a {
 	padding: 10px;
 	text-align: center;
-	color: gray;
+	color: white;
 }

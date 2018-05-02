@@ -8,7 +8,7 @@ document.write(
 			'<a href="homepage.html">Home</a>' +
     		'<a href="#news.html">News</a>' +
     		'<a href="comic.html">Comics</a>' +
-			'<a href="#account.html">Account</a>' +    	
+			'<a href="profile.html">Account</a>' +    	
 			'<a href="#about.html">About</a>' +
     	'</nav>'
     	);

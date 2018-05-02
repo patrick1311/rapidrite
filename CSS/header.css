@@ -1,11 +1,9 @@
 
 #header {
-	//background-color: yellow;
 	height: 120px;
 }
 
 #logo img {
-	//background-color: lightgray;
 	float: left;
 	width: 311px;
 	height: 75px;
@@ -13,7 +11,6 @@
 }
 
 #acc_info {
-	//background-color: lightgreen;
 	float: right;
 	width: 20%;
 	height: 60px;
@@ -33,16 +30,19 @@
 	background-color: #A3C2E5;
 }
 
+#signup, nav a {
+	background-color: var(--main_theme_color);
+}
+
 #login {
-	color: #11519B;
-	border: 3px solid #11519B;
+	color: var(--main_theme_color);
+	border: 3px solid var(--main_theme_color);
 	background-color: white;
 }
 
 #signup {
 	color: white;
-	border: 3px solid #11519B;
-	background-color: #11519B;
+	border: 3px solid var(--main_theme_color);
 }
 
 nav {
@@ -58,7 +58,6 @@ nav a {
 	float: left;
 	margin: 0;
 	padding: 10px 0px;
-	background-color: #666;
 	width: 20%;
 	color: white;
 	text-transform: uppercase;
@@ -67,7 +66,7 @@ nav a {
 }
 
 nav a:hover {
-	background-color: #333;
+	background-color: #444;
 	color: white;
 	text-decoration: none;
 }
